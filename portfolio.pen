@@ -16,7 +16,6 @@
           "type": "frame",
           "id": "k8s2S",
           "name": "1-NAVBAR",
-          "width": "fill_container",
           "height": 72,
           "fill": "#FFFFFFEE",
           "stroke": {
@@ -427,6 +426,7 @@
           "id": "xtH2G",
           "name": "Projects & Experience",
           "width": "fill_container",
+          "height": 748,
           "fill": "$bg-secondary",
           "layout": "vertical",
           "gap": 53,
@@ -6393,6 +6393,757 @@
                   "fontWeight": "500"
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "UlBkm",
+      "x": 3000,
+      "y": 0,
+      "name": "PopupWindow",
+      "reusable": true,
+      "clip": true,
+      "width": 480,
+      "fill": "#FFFFFF",
+      "cornerRadius": 24,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "9vRPN",
+          "name": "TitleBar",
+          "width": "fill_container",
+          "padding": [
+            24,
+            24,
+            16,
+            24
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "FAE7w",
+              "name": "Title",
+              "fill": "#1C1C1E",
+              "textGrowth": "fixed-width",
+              "width": 300,
+              "content": "Compare latest\niPhone models.",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "LCChG",
+              "name": "CloseBtn",
+              "width": 36,
+              "height": 36,
+              "fill": "#1C1C1E",
+              "cornerRadius": 980,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "NbDXT",
+                  "name": "CloseIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "x",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "o9OUo",
+          "name": "ContentArea",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            0,
+            24,
+            8,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "LrHZe",
+              "name": "PhoneRow1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Vohqz",
+                  "name": "RowLabel1",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Rb8uY",
+                      "name": "labelText1",
+                      "fill": "#1C1C1E",
+                      "content": "iPhone 17",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gZX6k",
+                      "name": "badgeText1",
+                      "fill": "#E93800",
+                      "content": "Currently Viewing",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BYbp8",
+                  "name": "CardStrip1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "W4vnK",
+                      "name": "MainCard1",
+                      "width": "fill_container",
+                      "height": 130,
+                      "fill": "#F5F5F7",
+                      "cornerRadius": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "EmX0U",
+                          "name": "PhoneImg1",
+                          "clip": true,
+                          "width": 100,
+                          "height": 130,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./images/generated-1773844085794.png",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hACK6",
+                          "name": "SpecsCol1",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "W0I8w",
+                              "name": "sizeText1",
+                              "fill": "#1C1C1E",
+                              "textGrowth": "fixed-width",
+                              "width": 200,
+                              "content": "6.3\"",
+                              "fontFamily": "Inter",
+                              "fontSize": 50,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Sim6C",
+                              "name": "specSub1",
+                              "fill": "#8E8E93",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "SUPER RETINA XDR DISPLAY\nDURABLE ALUMINIUM FRAME",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VKkyq",
+                      "name": "PartialCard1",
+                      "clip": true,
+                      "width": 56,
+                      "height": 130,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1773844105219.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Vd0gO",
+              "name": "PhoneRow2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BxKAe",
+                  "name": "RowLabel2",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MNKOW",
+                      "name": "labelText2",
+                      "fill": "#1C1C1E",
+                      "content": "iPhone Air",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mbzD7",
+                  "name": "CardStrip2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dwPdg",
+                      "name": "MainCard2",
+                      "width": "fill_container",
+                      "height": 130,
+                      "fill": "#F5F5F7",
+                      "cornerRadius": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Gvidx",
+                          "name": "PhoneImg2",
+                          "clip": true,
+                          "width": 100,
+                          "height": 130,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./images/generated-1773844248410.png",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "N8aVt",
+                          "name": "SpecsCol2",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "7flXR",
+                              "name": "sizeText2",
+                              "fill": "#1C1C1E",
+                              "textGrowth": "fixed-width",
+                              "width": 200,
+                              "content": "6.5\"",
+                              "fontFamily": "Inter",
+                              "fontSize": 50,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "949aI",
+                              "name": "specSub2",
+                              "fill": "#8E8E93",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "SUPER RETINA XDR DISPLAY\nPOLISHED TITANIUM FRAME",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ussQr",
+                      "name": "PartialCard2",
+                      "clip": true,
+                      "width": 56,
+                      "height": 130,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1773844268703.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YNAY0",
+              "name": "PhoneRow3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ccWK1",
+                  "name": "RowLabel3",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RUPYA",
+                      "name": "labelText3",
+                      "fill": "#1C1C1E",
+                      "content": "iPhone 17 Pro",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OLHAe",
+                  "name": "CardStrip3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "v8lld",
+                      "name": "MainCard3",
+                      "width": "fill_container",
+                      "height": 130,
+                      "fill": "#F5F5F7",
+                      "cornerRadius": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "puGZJ",
+                          "name": "PhoneImg3",
+                          "clip": true,
+                          "width": 100,
+                          "height": 130,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./images/generated-1773844326654.png",
+                            "mode": "fill"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GFukP",
+                          "name": "SpecsCol3",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "justifyContent": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "yEJJB",
+                              "name": "sizeText3",
+                              "fill": "#1C1C1E",
+                              "textGrowth": "fixed-width",
+                              "width": 200,
+                              "content": "6.9\" / 6.3\"",
+                              "fontFamily": "Inter",
+                              "fontSize": 40,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lC7oY",
+                              "name": "specSub3",
+                              "fill": "#8E8E93",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "SUPER RETINA XDR DISPLAY\nFORGED ALUMINIUM UNIBODY",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dEkfQ",
+                      "name": "PartialCard3",
+                      "clip": true,
+                      "width": 56,
+                      "height": 130,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1773844364588.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OWrsG",
+          "name": "NavRow",
+          "width": "fill_container",
+          "gap": 10,
+          "padding": [
+            4,
+            0,
+            16,
+            0
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "EvNbP",
+              "name": "PrevBtn",
+              "width": 36,
+              "height": 36,
+              "cornerRadius": 980,
+              "stroke": {
+                "align": "center",
+                "thickness": 1.5,
+                "fill": "#00000025"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "aWxHB",
+                  "name": "PrevIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "chevron-left",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1E"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m681j",
+              "name": "NextBtn",
+              "width": 36,
+              "height": 36,
+              "fill": "#007AFF",
+              "cornerRadius": 980,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "ZYMRS",
+                  "name": "NextIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "chevron-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zuYYp",
+          "name": "TabBar",
+          "width": "fill_container",
+          "fill": "#F9F9F9",
+          "padding": [
+            14,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "bpgAG",
+              "name": "DesignTab",
+              "fill": "#1C1C1E",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                6,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "GlEog",
+                  "name": "DesignIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "layout-grid",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "text",
+                  "id": "igBmN",
+                  "name": "DesignLabel",
+                  "fill": "#FFFFFF",
+                  "content": "Design",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lK9wb",
+              "name": "CameraTab",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                6,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "ZLHTh",
+                  "name": "CameraIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "camera",
+                  "iconFontFamily": "lucide",
+                  "fill": "#8E8E93"
+                },
+                {
+                  "type": "text",
+                  "id": "MZGob",
+                  "name": "CameraLabel",
+                  "fill": "#8E8E93",
+                  "content": "Camera",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YzDgA",
+              "name": "ChipTab",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                6,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "NxESm",
+                  "name": "ChipIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "cpu",
+                  "iconFontFamily": "lucide",
+                  "fill": "#8E8E93"
+                },
+                {
+                  "type": "text",
+                  "id": "vB6m0",
+                  "name": "ChipLabel",
+                  "fill": "#8E8E93",
+                  "content": "Chip",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "74j64",
+              "name": "BatteryTab",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                6,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "bUz5C",
+                  "name": "BatteryIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "battery",
+                  "iconFontFamily": "lucide",
+                  "fill": "#8E8E93"
+                },
+                {
+                  "type": "text",
+                  "id": "kEZ2k",
+                  "name": "BatteryLabel",
+                  "fill": "#8E8E93",
+                  "content": "Battery",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m4ZLp",
+              "name": "PriceTab",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                6,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "I4uF6",
+                  "name": "PriceIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "tag",
+                  "iconFontFamily": "lucide",
+                  "fill": "#8E8E93"
+                },
+                {
+                  "type": "text",
+                  "id": "GiJDl",
+                  "name": "PriceLabel",
+                  "fill": "#8E8E93",
+                  "content": "Price",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "5fvlh",
+      "x": 3000,
+      "y": 786,
+      "name": "CompareButton",
+      "reusable": true,
+      "fill": "#EEEEF0",
+      "cornerRadius": 980,
+      "gap": 12,
+      "padding": [
+        10,
+        10,
+        10,
+        20
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "QcLiE",
+          "name": "compareText",
+          "fill": "#1C1C1E",
+          "content": "Compare iPhone cameras",
+          "fontFamily": "Inter",
+          "fontSize": 15,
+          "fontWeight": "500"
+        },
+        {
+          "type": "frame",
+          "id": "bRzDq",
+          "name": "PlusBtn",
+          "width": 32,
+          "height": 32,
+          "fill": "#007AFF",
+          "cornerRadius": 980,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "Vux3D",
+              "name": "PlusIcon",
+              "width": 16,
+              "height": 16,
+              "iconFontName": "plus",
+              "iconFontFamily": "lucide",
+              "fill": "#FFFFFF"
             }
           ]
         }
