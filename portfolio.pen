@@ -24,7 +24,11 @@
             "thickness": {
               "bottom": 1
             },
-            "fill": "#E5E5EA"
+            "fill": {
+              "type": "color",
+              "color": "#E5E5EA",
+              "enabled": false
+            }
           },
           "effect": {
             "type": "background_blur",
@@ -51,7 +55,7 @@
                   "name": "JK Badge",
                   "width": 36,
                   "height": 36,
-                  "fill": "#0F0F0F",
+                  "fill": "#ffffffff",
                   "cornerRadius": 6,
                   "justifyContent": "center",
                   "alignItems": "center",
@@ -60,23 +64,13 @@
                       "type": "text",
                       "id": "Gl04w",
                       "name": "navBadgeText",
-                      "fill": "#FFFFFF",
+                      "fill": "#000000ff",
                       "content": "JK",
                       "fontFamily": "Inter",
                       "fontSize": 14,
                       "fontWeight": "700"
                     }
                   ]
-                },
-                {
-                  "type": "text",
-                  "id": "03hC0",
-                  "name": "navWordmark",
-                  "fill": "#0F0F0F",
-                  "content": "Jing Kai",
-                  "fontFamily": "Inter",
-                  "fontSize": 15,
-                  "fontWeight": "700"
                 }
               ]
             },
@@ -174,7 +168,7 @@
                   "type": "frame",
                   "id": "h1gbk",
                   "name": "Why Me CTA",
-                  "fill": "#223F61",
+                  "fill": "#000000ff",
                   "cornerRadius": 980,
                   "padding": [
                     10,
@@ -205,11 +199,11 @@
           "name": "Hero Alt",
           "clip": true,
           "width": "fill_container",
-          "height": 723,
+          "height": 548,
           "fill": "#ffffffff",
           "layout": "vertical",
           "padding": [
-            7,
+            27,
             30
           ],
           "children": [
@@ -218,14 +212,19 @@
               "id": "GWC8f",
               "name": "Hero2 Content",
               "width": "fill_container",
-              "height": 545,
+              "height": 509,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/jingkaiii.png",
+                "mode": "fill"
+              },
               "layout": "vertical",
               "gap": 28,
               "padding": [
                 0,
                 200
               ],
-              "justifyContent": "center",
               "alignItems": "center",
               "children": [
                 {
@@ -271,7 +270,7 @@
                   "id": "XvrP3",
                   "name": "eyebrow2",
                   "fill": "#223F6188",
-                  "content": "PORTFOLIO · 2025",
+                  "content": "PORTFOLIO · 2065",
                   "fontFamily": "Inter",
                   "fontSize": 11,
                   "fontWeight": "700",
@@ -356,33 +355,44 @@
                   ]
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RYU4E",
+          "name": "Stats Strip",
+          "width": "fill_container",
+          "fill": "$bg-primary",
+          "padding": [
+            19,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
             {
-              "type": "group",
-              "id": "BpbYF",
+              "type": "frame",
+              "id": "ZJ6Yy",
+              "name": "Stat 1",
               "layout": "vertical",
-              "padding": [
-                0,
-                17
-              ],
-              "height": "fill_container",
+              "justifyContent": "center",
               "children": [
                 {
                   "type": "text",
-                  "id": "as9Yu",
+                  "id": "42FRN",
+                  "name": "num1",
                   "fill": "$text-secondary",
-                  "textGrowth": "fixed-width",
-                  "width": 190.79133682858088,
                   "content": "Tan Jing Kai",
                   "fontFamily": "Inter",
-                  "fontSize": 26,
-                  "fontWeight": "700",
-                  "letterSpacing": -1.5
+                  "fontSize": "$size-h3",
+                  "fontWeight": "600",
+                  "letterSpacing": -2
                 },
                 {
                   "type": "text",
-                  "id": "kIdUI",
-                  "name": "hl2",
+                  "id": "SEXp1",
+                  "name": "lbl1",
                   "fill": {
                     "type": "gradient",
                     "gradientType": "linear",
@@ -393,7 +403,7 @@
                     },
                     "colors": [
                       {
-                        "color": "#c0a8ca",
+                        "color": "#bb99ca",
                         "position": 0
                       },
                       {
@@ -406,10 +416,7 @@
                       }
                     ]
                   },
-                  "textGrowth": "fixed-width",
-                  "width": 633,
                   "content": "Full Stack. Full Send.",
-                  "lineHeight": 1.1,
                   "fontFamily": "Inter",
                   "fontSize": 72,
                   "fontWeight": "700",
@@ -434,34 +441,53 @@
           "children": [
             {
               "type": "frame",
-              "id": "AWnTH",
+              "id": "UTGWB",
               "name": "Section Header",
               "width": "fill_container",
-              "layout": "vertical",
-              "gap": 12,
+              "justifyContent": "space_between",
+              "alignItems": "end",
               "children": [
                 {
-                  "type": "text",
-                  "id": "6kCcf",
-                  "name": "projEyebrow",
-                  "fill": "$accent-blue",
-                  "content": "PROJECTS & EXPERIENCES",
-                  "fontFamily": "Inter",
-                  "fontSize": 11,
-                  "fontWeight": "700",
-                  "letterSpacing": 2
+                  "type": "frame",
+                  "id": "bZsjT",
+                  "name": "leftGroup",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6YOS6",
+                      "name": "projEyebrow",
+                      "fill": "$accent-blue",
+                      "content": "SELECTED WORK",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "zbruc",
+                      "name": "projH2",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": 600,
+                      "content": "Projects & Experience",
+                      "fontFamily": "Lora",
+                      "fontSize": 48,
+                      "fontWeight": "700"
+                    }
+                  ]
                 },
                 {
                   "type": "text",
-                  "id": "Fj9yT",
-                  "name": "projH2",
-                  "fill": "$text-primary",
-                  "textGrowth": "fixed-width",
-                  "width": 600,
-                  "content": "Get the Highlights.",
+                  "id": "ZovuY",
+                  "name": "seeAll",
+                  "fill": "$accent-blue",
+                  "content": "See all →",
                   "fontFamily": "Inter",
-                  "fontSize": 56,
-                  "fontWeight": "700"
+                  "fontSize": 15,
+                  "fontWeight": "600"
                 }
               ]
             },
@@ -476,91 +502,105 @@
                   "type": "frame",
                   "id": "9FRoW",
                   "name": "Card 1",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "siddharth1026",
+                    "link": "https://unsplash.com/@siddharth1026",
+                    "author": "siddharth narsimhan"
+                  },
                   "clip": true,
                   "width": "fill_container",
-                  "height": 460,
-                  "fill": "#1C1C1E",
+                  "height": 400,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1680530033206-881e0a7e44b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4NDE5MDZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
                   "cornerRadius": 20,
                   "layout": "vertical",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "zmTfG",
-                      "name": "Card1 Image",
-                      "metadata": {
-                        "type": "unsplash",
-                        "username": "boliviainteligente",
-                        "link": "https://unsplash.com/@boliviainteligente",
-                        "author": "BoliviaInteligente"
-                      },
-                      "width": "fill_container",
-                      "height": 240,
-                      "fill": {
-                        "type": "image",
-                        "enabled": true,
-                        "url": "https://images.unsplash.com/photo-1761044592451-f73ccbb5c067?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MjEzNzF8&ixlib=rb-4.1.0&q=80&w=1080",
-                        "mode": "fill"
-                      }
+                      "id": "AAoG2",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 200,
+                      "name": "GradOverlay",
+                      "width": "fill_container(0)",
+                      "height": 200,
+                      "fill": "#000000CC"
                     },
                     {
                       "type": "frame",
-                      "id": "LEWHV",
-                      "name": "Card1 Body",
+                      "id": "X2g4f",
+                      "name": "Spacer",
+                      "width": "fill_container",
+                      "height": "fill_container"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jT0k3",
+                      "name": "BottomText",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "gap": 12,
+                      "gap": 6,
                       "padding": [
+                        0,
                         20,
-                        24
+                        20,
+                        20
                       ],
                       "children": [
                         {
-                          "type": "frame",
-                          "id": "LUKtH",
-                          "name": "Tag",
-                          "fill": "#FFFFFF1A",
-                          "cornerRadius": 980,
-                          "padding": [
-                            4,
-                            12
-                          ],
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "DPqKc",
-                              "name": "card1tagText",
-                              "fill": "#FFFFFF99",
-                              "content": "Web / UX",
-                              "fontFamily": "Inter",
-                              "fontSize": 11,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        },
-                        {
                           "type": "text",
-                          "id": "h6d3x",
-                          "name": "card1title",
+                          "id": "POsAy",
+                          "name": "title1",
                           "fill": "#FFFFFF",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "E-commerce Redesign",
+                          "content": "Portfolio OS",
                           "fontFamily": "Inter",
-                          "fontSize": 24,
+                          "fontSize": 22,
                           "fontWeight": "700"
                         },
                         {
                           "type": "text",
-                          "id": "b6vyd",
-                          "name": "card1desc",
+                          "id": "GMvhH",
+                          "name": "tech1",
                           "fill": "#FFFFFF80",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Revamped checkout flow reducing drop-off by 34%. Built with Next.js and Tailwind.",
-                          "lineHeight": 1.5,
+                          "content": "Next.js · Tailwind · Supabase",
                           "fontFamily": "Inter",
-                          "fontSize": 14,
+                          "fontSize": 13,
                           "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "p9dmq",
+                      "layoutPosition": "absolute",
+                      "x": 16,
+                      "y": 16,
+                      "name": "TagPill",
+                      "fill": "#FFFFFF22",
+                      "cornerRadius": 980,
+                      "padding": [
+                        5,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "o8cw1",
+                          "name": "label1",
+                          "fill": "#FFFFFFCC",
+                          "content": "Full Stack",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -570,91 +610,105 @@
                   "type": "frame",
                   "id": "6sTHs",
                   "name": "Card 2",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "kkalerry",
+                    "link": "https://unsplash.com/@kkalerry",
+                    "author": "Klara Kulikova"
+                  },
                   "clip": true,
                   "width": "fill_container",
-                  "height": 460,
-                  "fill": "#1C1C1E",
+                  "height": 400,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1712260897374-5846cbeb7537?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4NDE5MTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
                   "cornerRadius": 20,
                   "layout": "vertical",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "nYo07",
-                      "name": "Card2 Image",
-                      "metadata": {
-                        "type": "unsplash",
-                        "username": "nika1010",
-                        "link": "https://unsplash.com/@nika1010",
-                        "author": "Veronica"
-                      },
-                      "width": "fill_container",
-                      "height": 240,
-                      "fill": {
-                        "type": "image",
-                        "enabled": true,
-                        "url": "https://images.unsplash.com/photo-1732354434112-a8ca835fe4d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MjEzODN8&ixlib=rb-4.1.0&q=80&w=1080",
-                        "mode": "fill"
-                      }
+                      "id": "1F4UF",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 200,
+                      "name": "GradOverlay",
+                      "width": "fill_container(0)",
+                      "height": 200,
+                      "fill": "#000000CC"
                     },
                     {
                       "type": "frame",
-                      "id": "R7qaD",
-                      "name": "Card2 Body",
+                      "id": "OzK7c",
+                      "name": "Spacer",
+                      "width": "fill_container",
+                      "height": "fill_container"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RLrZR",
+                      "name": "BottomText",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "gap": 12,
+                      "gap": 6,
                       "padding": [
+                        0,
                         20,
-                        24
+                        20,
+                        20
                       ],
                       "children": [
                         {
-                          "type": "frame",
-                          "id": "X5Xic",
-                          "name": "Tag",
-                          "fill": "#FFFFFF1A",
-                          "cornerRadius": 980,
-                          "padding": [
-                            4,
-                            12
-                          ],
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "zlkZC",
-                              "name": "card2tagText",
-                              "fill": "#FFFFFF99",
-                              "content": "SaaS / Data",
-                              "fontFamily": "Inter",
-                              "fontSize": 11,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        },
-                        {
                           "type": "text",
-                          "id": "pdRIm",
-                          "name": "card2title",
+                          "id": "gIxdm",
+                          "name": "title2",
                           "fill": "#FFFFFF",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "SaaS Dashboard",
+                          "content": "FinFlow App",
                           "fontFamily": "Inter",
-                          "fontSize": 24,
+                          "fontSize": 22,
                           "fontWeight": "700"
                         },
                         {
                           "type": "text",
-                          "id": "uWMWZ",
-                          "name": "card2desc",
+                          "id": "5sTly",
+                          "name": "tech2",
                           "fill": "#FFFFFF80",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Real-time analytics platform serving 10k+ users. Built with React, Node.js and PostgreSQL.",
-                          "lineHeight": 1.5,
+                          "content": "React Native · TypeScript",
                           "fontFamily": "Inter",
-                          "fontSize": 14,
+                          "fontSize": 13,
                           "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gcCWu",
+                      "layoutPosition": "absolute",
+                      "x": 16,
+                      "y": 16,
+                      "name": "TagPill",
+                      "fill": "#FFFFFF22",
+                      "cornerRadius": 980,
+                      "padding": [
+                        5,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "38gbS",
+                          "name": "label2",
+                          "fill": "#FFFFFFCC",
+                          "content": "Mobile",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -664,107 +718,111 @@
                   "type": "frame",
                   "id": "pLGt4",
                   "name": "Card 3",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "boliviainteligente",
+                    "link": "https://unsplash.com/@boliviainteligente",
+                    "author": "BoliviaInteligente"
+                  },
                   "clip": true,
                   "width": "fill_container",
-                  "height": 460,
-                  "fill": "#1C1C1E",
+                  "height": 400,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1761044591996-7a05341a3e12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4NDE5MjV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
                   "cornerRadius": 20,
                   "layout": "vertical",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "X9Gpn",
-                      "name": "Card3 Image",
-                      "metadata": {
-                        "type": "unsplash",
-                        "username": "theshubhamdhage",
-                        "link": "https://unsplash.com/@theshubhamdhage",
-                        "author": "Shubham Dhage"
-                      },
-                      "width": "fill_container",
-                      "height": 240,
-                      "fill": {
-                        "type": "image",
-                        "enabled": true,
-                        "url": "https://images.unsplash.com/photo-1627843240167-b1f9d28f732e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM4MjEzODN8&ixlib=rb-4.1.0&q=80&w=1080",
-                        "mode": "fill"
-                      }
+                      "id": "DaIEC",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 200,
+                      "name": "GradOverlay",
+                      "width": "fill_container(0)",
+                      "height": 200,
+                      "fill": "#000000CC"
                     },
                     {
                       "type": "frame",
-                      "id": "KiIuN",
-                      "name": "Card3 Body",
+                      "id": "6ck9b",
+                      "name": "Spacer",
+                      "width": "fill_container",
+                      "height": "fill_container"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K4K1T",
+                      "name": "BottomText",
                       "width": "fill_container",
                       "layout": "vertical",
-                      "gap": 12,
+                      "gap": 6,
                       "padding": [
+                        0,
                         20,
-                        24
+                        20,
+                        20
                       ],
                       "children": [
                         {
-                          "type": "frame",
-                          "id": "ycCc3",
-                          "name": "Tag",
-                          "fill": "#FFFFFF1A",
-                          "cornerRadius": 980,
-                          "padding": [
-                            4,
-                            12
-                          ],
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "5FIyT",
-                              "name": "card3tagText",
-                              "fill": "#FFFFFF99",
-                              "content": "Branding",
-                              "fontFamily": "Inter",
-                              "fontSize": 11,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        },
-                        {
                           "type": "text",
-                          "id": "u5qsx",
-                          "name": "card3title",
+                          "id": "lc9Y2",
+                          "name": "title3",
                           "fill": "#FFFFFF",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Brand & Motion",
+                          "content": "Brand Identity",
                           "fontFamily": "Inter",
-                          "fontSize": 24,
+                          "fontSize": 22,
                           "fontWeight": "700"
                         },
                         {
                           "type": "text",
-                          "id": "cnNv7",
-                          "name": "card3desc",
+                          "id": "xk8Sd",
+                          "name": "tech3",
                           "fill": "#FFFFFF80",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Full brand identity system with motion graphics. Logo, tokens, and animated components.",
-                          "lineHeight": 1.5,
+                          "content": "Figma · Brandini · Motion",
                           "fontFamily": "Inter",
-                          "fontSize": 14,
+                          "fontSize": 13,
                           "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SmNzH",
+                      "layoutPosition": "absolute",
+                      "x": 16,
+                      "y": 16,
+                      "name": "TagPill",
+                      "fill": "#FFFFFF22",
+                      "cornerRadius": 980,
+                      "padding": [
+                        5,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mBwDD",
+                          "name": "label3",
+                          "fill": "#FFFFFFCC",
+                          "content": "3D · Design",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
                         }
                       ]
                     }
                   ]
                 }
               ]
-            },
-            {
-              "type": "text",
-              "id": "e3MbU",
-              "name": "projLink",
-              "fill": "$accent-blue",
-              "content": "See all past experiences & projects →",
-              "fontFamily": "Inter",
-              "fontSize": 15,
-              "fontWeight": "600"
             }
           ]
         },
