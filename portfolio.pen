@@ -18,7 +18,14 @@
           "name": "1-NAVBAR",
           "width": "fill_container",
           "height": 72,
-          "fill": "#000000CC",
+          "fill": "#FFFFFFEE",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#E5E5EA"
+          },
           "effect": {
             "type": "background_blur",
             "radius": 20
@@ -44,7 +51,7 @@
                   "name": "JK Badge",
                   "width": 36,
                   "height": 36,
-                  "fill": "#FFFFFF",
+                  "fill": "#0F0F0F",
                   "cornerRadius": 6,
                   "justifyContent": "center",
                   "alignItems": "center",
@@ -53,7 +60,7 @@
                       "type": "text",
                       "id": "Gl04w",
                       "name": "navBadgeText",
-                      "fill": "#000000",
+                      "fill": "#FFFFFF",
                       "content": "JK",
                       "fontFamily": "Inter",
                       "fontSize": 14,
@@ -65,7 +72,7 @@
                   "type": "text",
                   "id": "03hC0",
                   "name": "navWordmark",
-                  "fill": "#FFFFFF",
+                  "fill": "#0F0F0F",
                   "content": "Jing Kai",
                   "fontFamily": "Inter",
                   "fontSize": 15,
@@ -85,7 +92,7 @@
                   "type": "text",
                   "id": "N87FY",
                   "name": "navLink1",
-                  "fill": "#FFFFFFCC",
+                  "fill": "#0F0F0F",
                   "content": "About",
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -95,7 +102,7 @@
                   "type": "text",
                   "id": "ziVLi",
                   "name": "navLink2",
-                  "fill": "#FFFFFFCC",
+                  "fill": "#0F0F0F",
                   "content": "Projects",
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -105,7 +112,7 @@
                   "type": "text",
                   "id": "JmGiI",
                   "name": "navLink3",
-                  "fill": "#FFFFFFCC",
+                  "fill": "#0F0F0F",
                   "content": "Skills",
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -115,7 +122,7 @@
                   "type": "text",
                   "id": "NW7oF",
                   "name": "navLink4",
-                  "fill": "#FFFFFFCC",
+                  "fill": "#0F0F0F",
                   "content": "Compare",
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -125,7 +132,7 @@
                   "type": "text",
                   "id": "pElEQ",
                   "name": "contactLink",
-                  "fill": "#FFFFFFCC",
+                  "fill": "#0F0F0F",
                   "content": "Contact",
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -167,7 +174,7 @@
                   "type": "frame",
                   "id": "h1gbk",
                   "name": "Why Me CTA",
-                  "fill": "#FFFFFF",
+                  "fill": "#223F61",
                   "cornerRadius": 980,
                   "padding": [
                     10,
@@ -180,7 +187,7 @@
                       "type": "text",
                       "id": "P8QPB",
                       "name": "navCTAText",
-                      "fill": "#000000",
+                      "fill": "#FFFFFF",
                       "content": "Why me?",
                       "fontFamily": "Inter",
                       "fontSize": 14,
@@ -198,65 +205,20 @@
           "name": "Hero Alt",
           "clip": true,
           "width": "fill_container",
-          "height": 860,
-          "fill": "#000000",
-          "layout": "none",
+          "height": 723,
+          "fill": "#ffffffff",
+          "layout": "vertical",
+          "padding": [
+            7,
+            30
+          ],
           "children": [
             {
               "type": "frame",
-              "id": "auMVg",
-              "layoutPosition": "absolute",
-              "x": 0,
-              "y": 0,
-              "name": "Circuit BG",
-              "opacity": 0.75,
-              "width": 1440,
-              "height": 320,
-              "fill": {
-                "type": "image",
-                "enabled": true,
-                "url": "./images/generated-1773822523540.png",
-                "mode": "fill"
-              }
-            },
-            {
-              "type": "frame",
-              "id": "g1ds1",
-              "layoutPosition": "absolute",
-              "x": 0,
-              "y": 0,
-              "name": "Fade Overlay",
-              "width": 1440,
-              "height": 320,
-              "fill": {
-                "type": "gradient",
-                "gradientType": "linear",
-                "enabled": true,
-                "rotation": 180,
-                "size": {
-                  "height": 1
-                },
-                "colors": [
-                  {
-                    "color": "#00000000",
-                    "position": 0
-                  },
-                  {
-                    "color": "#000000FF",
-                    "position": 1
-                  }
-                ]
-              }
-            },
-            {
-              "type": "frame",
               "id": "GWC8f",
-              "layoutPosition": "absolute",
-              "x": 0,
-              "y": 0,
               "name": "Hero2 Content",
-              "width": 1440,
-              "height": 860,
+              "width": "fill_container",
+              "height": 545,
               "layout": "vertical",
               "gap": 28,
               "padding": [
@@ -270,12 +232,12 @@
                   "type": "frame",
                   "id": "ZyNyb",
                   "name": "Status Pill",
-                  "fill": "#FFFFFF0F",
+                  "fill": "#EDF1F4",
                   "cornerRadius": 980,
                   "stroke": {
                     "align": "inside",
                     "thickness": 1,
-                    "fill": "#FFFFFF1A"
+                    "fill": "#223F6122"
                   },
                   "gap": 8,
                   "padding": [
@@ -288,7 +250,7 @@
                       "type": "ellipse",
                       "id": "YAKWW",
                       "name": "statusDot",
-                      "fill": "#BFB3F5",
+                      "fill": "#7C6BC8",
                       "width": 7,
                       "height": 7
                     },
@@ -296,7 +258,7 @@
                       "type": "text",
                       "id": "8zp5h",
                       "name": "statusText",
-                      "fill": "#FFFFFFCC",
+                      "fill": "#223F61",
                       "content": "Available for hire  ·  Full Stack  ·  Designer  ›",
                       "fontFamily": "Inter",
                       "fontSize": 13,
@@ -308,7 +270,7 @@
                   "type": "text",
                   "id": "XvrP3",
                   "name": "eyebrow2",
-                  "fill": "#FFFFFF66",
+                  "fill": "#223F6188",
                   "content": "PORTFOLIO · 2025",
                   "fontFamily": "Inter",
                   "fontSize": 11,
@@ -319,7 +281,7 @@
                   "type": "text",
                   "id": "ZPbaE",
                   "name": "subtext2",
-                  "fill": "#FFFFFF99",
+                  "fill": "#565656",
                   "textGrowth": "fixed-width",
                   "width": 480,
                   "content": "Full Stack Developer & Designer based in Singapore.\nCrafting digital experiences that matter.",
@@ -340,7 +302,7 @@
                       "type": "frame",
                       "id": "L78sL",
                       "name": "cta2a",
-                      "fill": "#FFFFFF",
+                      "fill": "#223F61",
                       "cornerRadius": 980,
                       "padding": [
                         14,
@@ -353,7 +315,7 @@
                           "type": "text",
                           "id": "3fkxp",
                           "name": "cta2at",
-                          "fill": "#000000",
+                          "fill": "#FFFFFF",
                           "content": "View my work",
                           "fontFamily": "Inter",
                           "fontSize": 15,
@@ -370,7 +332,7 @@
                       "stroke": {
                         "align": "inside",
                         "thickness": 1.5,
-                        "fill": "#FFFFFF50"
+                        "fill": "#223F61"
                       },
                       "padding": [
                         14,
@@ -383,7 +345,7 @@
                           "type": "text",
                           "id": "iMSWX",
                           "name": "cta2bt",
-                          "fill": "#FFFFFF",
+                          "fill": "#223F61",
                           "content": "Let's talk →",
                           "fontFamily": "Inter",
                           "fontSize": 15,
@@ -392,48 +354,66 @@
                       ]
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "id": "BpbYF",
+              "layout": "vertical",
+              "padding": [
+                0,
+                17
+              ],
+              "height": "fill_container",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "as9Yu",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 190.79133682858088,
+                  "content": "Tan Jing Kai",
+                  "fontFamily": "Inter",
+                  "fontSize": 26,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.5
                 },
                 {
-                  "type": "frame",
-                  "id": "66GyZ",
-                  "name": "Headline",
-                  "layout": "vertical",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "xAGS7",
-                      "name": "hl1",
-                      "fill": "#FFFFFF",
-                      "content": "Designing the",
-                      "lineHeight": 1.1,
-                      "fontFamily": "Inter",
-                      "fontSize": 88,
-                      "fontWeight": "700"
+                  "type": "text",
+                  "id": "kIdUI",
+                  "name": "hl2",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": -90,
+                    "size": {
+                      "height": 1
                     },
-                    {
-                      "type": "text",
-                      "id": "kIdUI",
-                      "name": "hl2",
-                      "fill": "#FFFFFF",
-                      "content": "future. Building",
-                      "lineHeight": 1.1,
-                      "fontFamily": "Inter",
-                      "fontSize": 88,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "BmQtE",
-                      "name": "hl3",
-                      "fill": "$accent-purple",
-                      "content": "it today.",
-                      "lineHeight": 1.15,
-                      "fontFamily": "Inter",
-                      "fontSize": 88,
-                      "fontWeight": "700"
-                    }
-                  ]
+                    "colors": [
+                      {
+                        "color": "#c0a8ca",
+                        "position": 0
+                      },
+                      {
+                        "color": "#a5b27c",
+                        "position": 1
+                      },
+                      {
+                        "color": "#7891b7",
+                        "position": 0.5
+                      }
+                    ]
+                  },
+                  "textGrowth": "fixed-width",
+                  "width": 633,
+                  "content": "Full Stack. Full Send.",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Inter",
+                  "fontSize": 72,
+                  "fontWeight": "700",
+                  "letterSpacing": -5
                 }
               ]
             }
@@ -3565,6 +3545,138 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BkBpx",
+                  "name": "row1",
+                  "rotation": -0.035341321810555805,
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LgJww",
+                      "name": "c1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "2tAKl",
+                          "name": "c1swatch",
+                          "width": "fill_container",
+                          "height": 64,
+                          "fill": "#c0a8ca",
+                          "cornerRadius": 12,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#E5E5EA"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "23Eu5",
+                          "name": "c1name",
+                          "fill": "$text-primary",
+                          "content": "iphone purple",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Al1rn",
+                          "name": "c1val",
+                          "fill": "$text-secondary",
+                          "content": "#c0a8ca",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "LX6qt",
+                      "name": "c2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "S7AX3",
+                          "name": "c2swatch",
+                          "width": "fill_container",
+                          "height": 64,
+                          "fill": "#7891b7",
+                          "cornerRadius": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "FwguU",
+                          "name": "c2name",
+                          "fill": "$text-primary",
+                          "content": "iphone blue",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HH5uY",
+                          "name": "c2val",
+                          "fill": "$text-secondary",
+                          "content": "#7891b7",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kuvT9",
+                      "name": "c3",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "1812Z",
+                          "name": "c3swatch",
+                          "width": "fill_container",
+                          "height": 64,
+                          "fill": "#a5b27c",
+                          "cornerRadius": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "lKwWo",
+                          "name": "c3name",
+                          "fill": "$text-primary",
+                          "content": "iphone green",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DCyBu",
+                          "name": "c3val",
+                          "fill": "$text-secondary",
+                          "content": "#a5b27c",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -3951,6 +4063,7 @@
                   "content": "Release Note — 15px Italic",
                   "fontFamily": "Inter",
                   "fontSize": 15,
+                  "fontWeight": "normal",
                   "fontStyle": "italic"
                 },
                 {
